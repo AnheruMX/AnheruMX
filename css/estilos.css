@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    font: 'Century Gothic', 'Arial Narrow','Times New Roman';
+    border-style: none;
+}
+
+body{
+    background-image:url('../img/19366.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: 100% 50%;
+}
