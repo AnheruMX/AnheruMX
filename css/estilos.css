@@ -40,7 +40,14 @@ li
 p
 {
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+table, tbody, tr, th, td
+{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 80%;
 }
 
 .main-container
@@ -137,6 +144,8 @@ p
 
 .contenido
 {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
 }
 
