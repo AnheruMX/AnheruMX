@@ -52,18 +52,24 @@ th
 {
     background-color: #2596be;
     color: white;
+    width: 20px;
 }
 
 tr
 {
     height: 50px;
 }
+
 table, tbody, tr, th, td
 {
     border: 0.5px dashed;
     border-color: #2596be;
-    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-collapse: collapse;
+    text-align: justify;
 }
 
 .main-container
@@ -144,7 +150,7 @@ table, tbody, tr, th, td
     align-items: center;
     justify-content: center;
     height: cal(100% - 5px);
-    width: 100px;
+    width: 120px;
     padding: 5px;
     color: white;
 }
@@ -186,7 +192,7 @@ table, tbody, tr, th, td
     font-size: 15px;
 }
 
-.universidad
+.titulo
 {
     font-weight: bold;
     font-size: 18px;
