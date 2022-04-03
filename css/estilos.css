@@ -43,11 +43,27 @@ p
     font-size: 16px;
 }
 
+table
+{
+    width: 80%;
+}
+
+th
+{
+    background-color: #2596be;
+    color: white;
+}
+
+tr
+{
+    height: 50px;
+}
 table, tbody, tr, th, td
 {
-    border: 1px solid;
+    border: 0.5px dashed;
+    border-color: #2596be;
+    text-align: center;
     border-collapse: collapse;
-    width: 80%;
 }
 
 .main-container
@@ -162,4 +178,17 @@ table, tbody, tr, th, td
     position: sticky;
     bottom: 0;
     gap: 10px;
+}
+
+.fecha
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.universidad
+{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
 }
